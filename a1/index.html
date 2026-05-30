@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>a1 - SLR 手语识别项目</title>
+<style>
+body { font-family: sans-serif; max-width: 800px; margin: 50px auto; padding: 0 20px; line-height: 1.6; }
+h1 { border-bottom: 2px solid #333; padding-bottom: 10px; }
+pre { background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto; }
+</style>
+</head>
+<body>
+<h1>手语识别项目 (a1)</h1>
+<p>基于 MediaPipe + BLSTM 的手语识别</p>
+<h2>文件结构</h2>
+<ul>
+<li><code>realtime_demo.py</code> — 实时手语识别演示（MediaPipe Pose）</li>
+<li><code>train.py</code> — 训练脚本</li>
+<li><code>SLR_flask_server.py</code> — Flask 服务器</li>
+<li><code>nnet/</code> — 神经网络模型（BLSTM/LSTM）</li>
+<li><code>config/</code> — 配置文件</li>
+<li><code>data/</code> — 数据集</li>
+<li><code>model/</code> — 训练好的模型</li>
+</ul>
+<h2>运行方式</h2>
+<pre>pip install -r requirements.txt.old
+python realtime_demo.py</pre>
+</body>
+</html>
