@@ -1,4 +1,5 @@
 .opencode-router/
+.opencode/
 opencode.jsonc
 nul
 __pycache__/
