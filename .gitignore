@@ -1,0 +1,6 @@
+.opencode-router/
+opencode.jsonc
+nul
+__pycache__/
+*.pyc
+.env
