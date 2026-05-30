@@ -1,6 +1,4 @@
 # Data Files
-!a1.zip
-*.zip
 *.mat
 *.npy
 *.http
