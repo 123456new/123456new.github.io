@@ -1,5 +1,6 @@
 # Data Files
 *.mat
+data/SLR_dataset/xf500_body_depth_mat.zip
 *.npy
 *.http
 test_*.py
